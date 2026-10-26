@@ -509,23 +509,23 @@
       </div>
       <div class="col-lg-7" data-aos="fade-left">
         <div class="contact-card">
-          <form id="contactForm" novalidate>
-            <div class="row g-3">
-              <div class="col-md-6">
-                <label class="form-label small fw-semibold" for="cf-name">Full Name</label>
-                <input type="text" class="form-control form-control-hw" id="cf-name" placeholder="Jane Doe" required>
+         <form id="contactForm" action="https://formsubmit.co/conalepm.uno@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="Nuevo comentario HERBAWEB">
+  <input type="hidden" name="_template" value="table">
+                <input type="text" class="form-control form-control-hw" id="cf-name" name="Nombre" placeholder="Jane Doe" required>
               </div>
               <div class="col-md-6">
                 <label class="form-label small fw-semibold" for="cf-email">Email Address</label>
-                <input type="email" class="form-control form-control-hw" id="cf-email" placeholder="jane@example.com" required>
+               <input type="email" class="form-control form-control-hw" id="cf-email" name="Correo" placeholder="jane@example.com" required>
               </div>
               <div class="col-12">
                 <label class="form-label small fw-semibold" for="cf-subject">Subject</label>
-                <input type="text" class="form-control form-control-hw" id="cf-subject" placeholder="How can we help?">
+               <input type="text" class="form-control form-control-hw" id="cf-subject" name="Asunto" placeholder="How can we help?">
               </div>
               <div class="col-12">
                 <label class="form-label small fw-semibold" for="cf-message">Message</label>
-                <textarea class="form-control form-control-hw" id="cf-message" rows="4" placeholder="Tell us more&hellip;" required></textarea>
+               <textarea class="form-control form-control-hw" id="cf-message" rows="4" name="Mensaje" placeholder="Tell us more..." required></textarea>
               </div>
               <div class="col-12">
                 <button type="submit" class="btn-hw-primary w-100 justify-content-center">Send Message <i class="bi bi-send"></i></button>
