@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.addEventListener('click', function () { burstConfetti(btn); });
     });
 
-    /* ---------- CONTACT FORM (demo submit) ---------- */
+    /* ---------- CONTACT FORM (demo submit) ---------- 
     var form = document.getElementById('contactForm');
     var status = document.getElementById('formStatus');
     form.addEventListener('submit', function (e) {
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
         status.innerHTML = '<div class="alert alert-success mt-2 mb-0" style="border-radius:12px;"><i class="bi bi-check-circle-fill me-2"></i>Thanks! Your message has been sent.</div>';
         form.reset();
         form.classList.remove('was-validated');
-    });
+    });*/
    
 
 });
