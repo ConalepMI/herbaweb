@@ -155,10 +155,10 @@ document.addEventListener('DOMContentLoaded', function () {
         status.innerHTML = '<div class="alert alert-success mt-2 mb-0" style="border-radius:12px;"><i class="bi bi-check-circle-fill me-2"></i>Thanks! Your message has been sent.</div>';
         form.reset();
         form.classList.remove('was-validated');
-    });*/
-    /* ---------- CONTACT FORM ---------- */ var form = document.getElementById('contactForm'); var status = document.getElementById('formStatus'); form.addEventListener('submit', function (e) { e.preventDefault(); if (!form.checkValidity()) { form.classList.add('was-validated'); return; } fetch('https://formsubmit.co/ajax/conalepm.uno@gmail.com', { method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form) }) .then(function (r) { return r.json(); }) .then(function () { status.innerHTML = '<div class="alert alert-success mt-2 mb-0" style="border-radius:12px;"><i class="bi bi-check-circle-fill me-2"></i>¡Gracias! Tu mensaje fue enviado.</div>'; form.reset(); form.classList.remove('was-validated'); }) .catch(function () { status.innerHTML = '<div class="alert alert-danger mt-2 mb-0" style="border-radius:12px;">No se pudo enviar. Intenta de nuevo.</div>'; }); });
+    });
+   
 
-});
+});*/
 
 
 /* ---------- FAQ SEARCH + CATEGORY FILTER ---------- */
