@@ -48,12 +48,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav nav-hw mx-auto mt-3 mt-lg-0">
-        <li class="nav-item"><a class="nav-link" href="#home">inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">ingredietes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#home">INICIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">NOSOTROS</a></li>
         <li class="nav-item"><a class="nav-link" href="#causes">PLANTAS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#volunteers">sintomas</a></li>
-        <li class="nav-item"><a class="nav-link" href="#testimonials">metodos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">comentarios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#volunteers">SINTOMAS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">COMENTARIOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">COMENTA</a></li>
       </ul>
       <a href="#causes" class="btn-hw-primary d-none d-lg-inline-flex">plantas<i class="bi bi-arrow-right"></i></a>
     </div>
@@ -476,58 +476,7 @@
 <!-- ============================================
      WHY CHOOSE US
 ============================================ -->
-<section class="section-pad" id="why" style="background:var(--clr-bg);">
-  <div class="container">
-    <div class="text-center mx-auto mb-5" style="max-width:640px;" data-aos="fade-up">
-      <span class="eyebrow"><i class="bi bi-award-fill"></i> TITULO</span>
-      <h2 class="section-title mt-3" style="font-size:clamp(1.8rem,3.2vw,2.5rem);">TEXTO</h2>
-    </div>
-    <div class="row g-4">
-      <div class="col-md-6 col-lg-4" data-aos="fade-up">
-        <div class="why-card">
-          <div class="why-ic"><i class="bi bi-eye-fill"></i></div>
-          <h5 class="font-display fw-bold">TEXTO</h5>
-          <p class="text-muted mb-0">TEXTO.</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
-        <div class="why-card">
-          <div class="why-ic"><i class="bi bi-patch-check-fill"></i></div>
-          <h5 class="font-display fw-bold">TEXTOs</h5>
-          <p class="text-muted mb-0">TEXTO</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
-        <div class="why-card">
-          <div class="why-ic"><i class="bi bi-shield-lock-fill"></i></div>
-          <h5 class="font-display fw-bold">TEXTO</h5>
-          <p class="text-muted mb-0">TEXTO.</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4" data-aos="fade-up">
-        <div class="why-card">
-          <div class="why-ic"><i class="bi bi-graph-up-arrow"></i></div>
-          <h5 class="font-display fw-bold">TEXTO</h5>
-          <p class="text-muted mb-0">TEXTO.</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
-        <div class="why-card">
-          <div class="why-ic"><i class="bi bi-file-earmark-text-fill"></i></div>
-          <h5 class="font-display fw-bold">TEXTOs</h5>
-          <p class="text-muted mb-0">TEXTO.</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
-        <div class="why-card">
-          <div class="why-ic"><i class="bi bi-headset"></i></div>
-          <h5 class="font-display fw-bold">TEXTO</h5>
-          <p class="text-muted mb-0">TEXTO.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- ============================================
      HOW IT WORKS
@@ -548,9 +497,11 @@
         <div class="vol-card">
           <div class="vol-img"><img src="https://img.magnific.com/free-photo/portrait-young-handsome-guy-chrsitmas_114579-78899.jpg" alt="Volunteer Aria Chen" loading="lazy"></div>
           <div class="vol-overlay">
-            <div class="fw-bold font-display">Aria Chen</div>
-            <div class="small opacity-75">Field Coordinator</div>
-            <div class="vol-social"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-linkedin"></i></a></div>
+            <div class="fw-bold font-display">SINTOMA</div>
+            <div class="small opacity-75">DOLOR DE CABEZA</div>
+                <div class="cause-meta"><span class="raised"></span><span class="goal"></span></div>
+           <button class="cause-donate" onclick="document.getElementById('SINTOMA').style.display='flex'">SINTOMA</button>
+           
           </div>
         </div>
       </div>
@@ -1115,6 +1066,24 @@
     <button onclick="document.getElementById('modal-planta18').style.display='none'" style="background:green; color:white; border:none; padding:10px 20px; border-radius:8px; margin-top:10px;">Cerrar</button>
   </div>
 </div>
+      <div id="SINTOMA" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); justify-content:center; align-items:center; z-index:9999;">
+ <div style="background:white; padding:20px; border-radius:15px; max-width:700px; width:95%; position:relative; max-height:80vh; overflow-y:auto; font-size:16px; text-align:left; padding-bottom:40px;">
+    <span onclick="document.getElementById('SINTOMA').style.display='none'" style="position:absolute; top:10px; right:15px; font-size:25px; cursor:pointer;">&times;</span>
+    
+    <h3 style="color:green;">Información de la planta</h3>
+<p><b>NOMBRE CIENTIFICO:</b>taxón </p>
+<p><b>EFECTO:</b> Digestivo y carminativo: Alivia espasmos gastrointesti nales, cólicos, náuseas, indigestión y disminuye la producción de gases.</p>
+<p><b>DOSIS:</b> • En infusión (Té): Se aconseja utilizar de 2 a 3 gramos de flores secas (aproximadame nte de 1 a 2 cucharadas cafeteras o 1 bolsita comercial) por cada taza de agua hirviendo (150-200 ml). Se puede tomar de 2 a 3 veces al día después de los alimentos. </p>
+<p><b>INTERACCIONES:</b> La manzanilla contiene compuestos activos (como cumarinas y flavonoides) que pueden alterar el comportamiento de ciertos medicamentos: • Anticoagulantes  • Sedantes y. • Fármacos </p>
+<p><b>RECETA:</b> 1. Hervir el agua: Lleva a ebullición 250 ml de agua limpia. 2. Agregar la planta: Retira el agua del fuego inmediatamente tras romper a hervir y añade 1 cucharada de flores secas de manzanilla. 3. Reposo tapado: Es indispensable tapar el recipiente de inmediato. Los aceites esenciales benéficos de la manzanilla son volátiles; si no se tapa, se evaporan con el vapor. Deja reposar de 5 a 8 minutos. 4. Filtrar y consumir: Cuela la infusión. Consume tibia, preferentemente sin azúcar. </p>
+<p><b>UBICACION:</b> Únicam ente se localiza en huertos familiar es urbanos jardines botánicos</p>
+<p><b>ALERTA:</b> Puede tener reacciones alérgicas a plantas de la familia y uso inadecuado tradicionalm ente se usaba para lavar los ojos irritados ya que pueden dejar pequeñas partículas de polen y pueden causar infecciones o conjuntivitis</p>
+    
+    
+    <button onclick="document.getElementById('SINTOMA').style.display='none'" style="background:green; color:white; border:none; padding:10px 20px; border-radius:8px; margin-top:10px;">Cerrar</button>
+  </div>
+</div>
+
 
 </body>
 </html>
