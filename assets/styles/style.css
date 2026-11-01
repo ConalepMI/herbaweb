@@ -699,6 +699,15 @@ img {
   background: var(--clr-primary);
   color: #fff;
 }
+.btn-remedios {
+  border: 1.5px solid #FFFFFFAA;
+  color: #FFFFFFAA;
+}
+.btn-remedios:hover {
+  border: 1.5px solid var(--clr-primary);
+  background: var(--clr-primary);
+  color: #FFFFFFFF;
+}
 .why-card {
   background: var(--clr-surface);
   border-radius: var(--radius);
